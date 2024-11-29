@@ -1,0 +1,80 @@
+table{
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    height: 300px;
+    font-size: 18px;
+    background-color: white;
+  
+    
+}
+th{
+    color: rgb(255, 255, 255);
+    background-color: rgb(201, 9, 9);
+    
+}
+ th:hover{
+
+    background-color: rgb(177, 19, 19);
+    cursor: pointer;
+}
+ th a{
+    text-decoration: none;
+    color: white;
+}
+ tr:hover{
+    background-color: rgb(217, 213, 213);
+  
+ 
+    
+}
+
+
+form{
+    display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 100px;
+ }
+ fieldset{
+     display: flex;
+     flex-direction: column;
+     width: 30%;
+    
+ }
+ legend{
+     text-align: center;
+ }
+ input{
+     height: 30px;
+ }
+ #btn{
+     background-color: green;
+     color: white;
+     outline: none;
+     border: none;
+     padding: 5px 8px ;
+    
+ }
+ #btn:hover{
+     background-color: rgb(100, 150, 100);
+ }
+ p{
+     font-size: 18px;
+     font-family: sans-serif;
+ }
+ h5{
+     color:red;
+     font-size: 16px;
+ }
+
+ #send-btn{
+    padding: 2px 20px;
+    background-color: rgb(13, 123, 21);
+    border: none;
+    color: white;
+ }
+ #send-btn:hover{
+    background-color: rgb(4, 147, 18);
+ }
