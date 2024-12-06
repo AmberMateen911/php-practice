@@ -47,7 +47,7 @@
 if (isset($_POST['button'])) {
     if ($_POST['button'] == 'create') {
         if (isset($_POST['filename'])) {
-            $file_name = $_POST['filename'];
+            $file_name = './c_file/'.$_POST['filename'];
             $content = $_POST['content'];
             $file = fopen($file_name, "w") or die("Error: not created successfully");
             fwrite($file, $content);
